@@ -1,0 +1,25 @@
+.quiz{
+  width: 100%;
+  height: 100%;
+  background-color: #F0F8FF;
+}
+
+.container{
+  max-width: 80%;
+  margin: auto;
+}
+
+.container .topic{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: column;
+}
+
+.container .topic p{
+  font-weight: 500;
+}
+
+.container .topic .timing{
+  opacity: 0.6;
+}

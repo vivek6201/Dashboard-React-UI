@@ -21,7 +21,7 @@ const ModuleSidebar = () => {
     <div className="module-sidebar">
       <NavLink to={"/modules/course"} className="module-tab">
         <img src={activePage === "course" ? activeloopImg : loopImg} />
-        <span className="tab-text">Python Loop</span>
+        <p className="tab-text">Python Loop</p>
       </NavLink>
       <NavLink to={"/modules/quiz"} className="module-tab">
         <img src={activePage === "quiz" ? activeQuizImg : quizImg} />

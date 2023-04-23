@@ -1,0 +1,47 @@
+.assignment{
+  width: 100%;
+  height: 100%;
+  background-color: #F0F8FF;
+}
+
+.ass-container{
+  max-width: 80%;
+  margin: auto;
+}
+
+.ass-container .ass-topic{
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.ass-topic .topic-title p:first-child{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.topic-data{
+  display: flex ;
+  column-gap: 2rem;
+}
+
+.topic-data div{
+  display: flex ;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.topic-data div p:first-child{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.details > p{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
